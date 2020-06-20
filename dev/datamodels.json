@@ -1,0 +1,45 @@
+{
+    "doctor": {
+        "photo": "http://path.to.photo/1111",
+        "CRP": "CRP:AAABBBCCC",
+        "name": "Mario Poggi",
+        "id": 12345,
+        "appointments": [
+            {
+                "patient": {
+                    "accept-terms": true,
+                    "relative-has-covid": true,
+                    "relation-to-patient": "Cuidador",
+                    "state": "SP",
+                    "city": "Franca",
+                    "CEP": "098098777",
+                    "race": "White",
+                    "gender": "Female",
+                    "name": "Susana Díaz",
+                    "age": 69,
+                    "phone": "+51987654321",
+                    "email": "lachuchi@atv.pe"
+                },
+                "time-end": "19h30",
+                "time-start": "18h30",
+                "date": "2020-07-01"
+            }
+        ],
+        "timeslots": {
+            "blocked": [
+                {
+                    "time-end": "17h30",
+                    "time-start": "16h30",
+                    "date": "2020-06-20"
+                }
+            ],
+            "weekly": [
+                {
+                    "time-end": "19h30",
+                    "time-start": "16h30",
+                    "day-of-week": "Sun"
+                }
+            ]
+        }
+    }
+}
